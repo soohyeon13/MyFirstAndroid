@@ -40,9 +40,9 @@ public class ListViewBtnAdapter extends BaseAdapter {
             convertView = inflater.inflate(R.layout.listview_btn_item, parent, false);
         }
 
-        ImageView list_img = (ImageView) convertView.findViewById(R.id.imageView1);
-        TextView list_text = (TextView) convertView.findViewById(R.id.listViewText1);
-        Button list_btn = (Button) convertView.findViewById(R.id.listViewBtn1);
+        ImageView list_img = convertView.findViewById(R.id.imageView1);
+        TextView list_text = convertView.findViewById(R.id.listViewText1);
+        Button list_btn = convertView.findViewById(R.id.listViewBtn1);
 
 
         MyItem myItem = (MyItem) getItem(position);

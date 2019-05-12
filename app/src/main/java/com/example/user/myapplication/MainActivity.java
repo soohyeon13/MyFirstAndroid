@@ -40,11 +40,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void initView() {
-        kate1 = (Button) findViewById(R.id.kate1);
-        search_set1 = (Button) findViewById(R.id.search_set1);
-        recommend1 = (Button) findViewById(R.id.recommend1);
-        basket1 = (Button) findViewById(R.id.basket1);
-        mypage = (Button) findViewById(R.id.mypage);
+        kate1 = findViewById(R.id.kate1);
+        search_set1 = findViewById(R.id.search_set1);
+        recommend1 = findViewById(R.id.recommend1);
+        basket1 = findViewById(R.id.basket1);
+        mypage = findViewById(R.id.mypage);
 
         kate1.setOnClickListener(this);
         search_set1.setOnClickListener(this);

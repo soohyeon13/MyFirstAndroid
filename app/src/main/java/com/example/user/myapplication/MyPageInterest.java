@@ -18,7 +18,7 @@ public class MyPageInterest extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mypage_interest);
 
-        interestList = (ListView) findViewById(R.id.interestList);
+        interestList = findViewById(R.id.interestList);
 
         dataSetting();
     }
